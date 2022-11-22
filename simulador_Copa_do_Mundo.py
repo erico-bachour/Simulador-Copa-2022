@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import random
-
+import scipy as sc
+from scipy.stats import poisson 
 
 st.set_page_config(
     page_title = 'Predições de Jogos da Copa do Mundo',
