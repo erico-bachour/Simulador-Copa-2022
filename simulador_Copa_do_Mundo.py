@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import random
+pip install scipy
 import scipy as sc
 from scipy.stats import poisson 
 
